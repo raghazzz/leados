@@ -1,0 +1,23 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.13.3
+
+# ML
+scikit-learn==1.5.2
+numpy==2.1.2
+pandas==2.2.3
+
+# AI
+openai==1.51.2
+
+# Utils
+python-multipart==0.0.12   # CSV file uploads
+httpx==0.27.2              # Async HTTP (n8n webhooks)
+python-dotenv==1.0.1
